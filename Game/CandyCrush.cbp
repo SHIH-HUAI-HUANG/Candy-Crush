@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CandyCrush" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/CandyCrush" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/CandyCrush" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="ARIAL.TTF" />
+		<Unit filename="Fruit.wav" />
+		<Unit filename="Game.h" />
+		<Unit filename="WorldMap.wav" />
+		<Unit filename="action.cpp" />
+		<Unit filename="crush.cpp" />
+		<Unit filename="drop.cpp" />
+		<Unit filename="function.h" />
+		<Unit filename="function_check.cpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="picture/candy100.png" />
+		<Unit filename="picture/candy33.png" />
+		<Unit filename="picture/candy66.png" />
+		<Unit filename="picture/cover_game.png" />
+		<Unit filename="picture/cover_rank.png" />
+		<Unit filename="picture/cover_start.png" />
+		<Unit filename="picture/game_hide_candy.png" />
+		<Unit filename="picture/icon_exit.png" />
+		<Unit filename="picture/icon_play.png" />
+		<Unit filename="picture/icon_rank.png" />
+		<Unit filename="score.cpp" />
+		<Unit filename="score.csv" />
+		<Unit filename="swap.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
